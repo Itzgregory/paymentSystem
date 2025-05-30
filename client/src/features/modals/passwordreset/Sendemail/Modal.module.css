@@ -1,0 +1,132 @@
+.modalOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.2s ease-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modalContent {
+    width: 60%;
+    height: 60vh;
+    background-color: white;
+    animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative; 
+    border-radius: 20px;
+    padding: 2rem 1.5rem; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.modalContent h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    text-align: center; 
+}
+.modalContent .centerButton{
+    margin-top: 10px;
+    display: flexbox;
+   
+}
+
+.closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    transition: color 0.3s;
+}
+
+.closeButton:hover {
+    color: #555; 
+}
+.modalForm{
+    width: 80%;
+    padding: 2rem;
+}
+.formGroup {
+    margin-bottom: 1.5rem;
+    margin: auto;
+}
+  
+.inputBox {
+    position: relative;
+    margin-bottom: 1rem;
+}
+  
+.inputBox input {
+    width: 100%;
+    height: 48px;
+    background: transparent;
+    border: 2px solid var(count-cart-bg);
+    border-radius: 24px;
+    color: #070707;
+    padding: 0 1.25rem;
+    transition: all 0.3s ease;
+}
+  
+  .inputBox input:focus {
+    outline: none;
+    border-color: var(--hover-color);
+    box-shadow: 0 0 5px var(--hover-color);
+  }
+  
+  .inputBox label {
+    position: absolute;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-color-black);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    background: transparent;
+    padding: 0 0.5rem;
+  }
+  
+  .inputBox input:focus ~ label,
+  .inputBox input:not(:placeholder-shown) ~ label {
+    top: 0;
+    transform: translateY(-50%) scale(0.9);
+    background: white;
+    color: var(--hover-color);
+  }
+
+
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes popIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }

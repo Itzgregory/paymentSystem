@@ -1,0 +1,560 @@
+[2025-05-30 14:59:24] INFO: Database connection established
+[2025-05-30 14:59:24] INFO: Server is listening on port 8080
+[2025-05-30 14:59:24] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 14:59:40] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 14:59:40] INFO: [Mongoose] users.updateOne {"_id":"6818c51664f9d8d0e99c1e9b","__v":32} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MThjNTE2NjRmOWQ4ZDBlOTljMWU5YiIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYxMzU4MCwiZXhwIjoxNzQ4Njk5OTgwfQ.twceIrjZKfwlp1g6CF0mS2NEXkd_GPkVRhtWwyQVbJQ"],"lastLogin":"2025-05-30T13:59:40.932Z","updatedAt":"2025-05-30T13:59:40.942Z"},"$inc":{"__v":1}}
+[2025-05-30 15:01:21] INFO: Database connection established
+[2025-05-30 15:01:21] INFO: Server is listening on port 8080
+[2025-05-30 15:01:21] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 15:01:35] INFO: Database connection established
+[2025-05-30 15:01:35] INFO: Server is listening on port 8080
+[2025-05-30 15:01:35] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 15:01:48] INFO: Database connection established
+[2025-05-30 15:01:48] INFO: Server is listening on port 8080
+[2025-05-30 15:01:48] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 15:01:58] INFO: Database connection established
+[2025-05-30 15:01:58] INFO: Server is listening on port 8080
+[2025-05-30 15:01:58] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 15:02:02] INFO: Database connection established
+[2025-05-30 15:02:02] INFO: Server is listening on port 8080
+[2025-05-30 15:02:02] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 15:34:37] INFO: Database connection established
+[2025-05-30 15:34:37] INFO: Server is listening on port 8080
+[2025-05-30 15:41:04] INFO: Database connection established
+[2025-05-30 15:41:04] INFO: Server is listening on port 8080
+[2025-05-30 15:43:48] INFO: Database connection established
+[2025-05-30 15:43:48] INFO: Server is listening on port 8080
+[2025-05-30 15:43:55] INFO: Database connection established
+[2025-05-30 15:43:55] INFO: Server is listening on port 8080
+[2025-05-30 15:44:03] INFO: Database connection established
+[2025-05-30 15:44:03] INFO: Server is listening on port 8080
+[2025-05-30 15:44:19] INFO: Database connection established
+[2025-05-30 15:44:19] INFO: Server is listening on port 8080
+[2025-05-30 15:44:23] INFO: Database connection established
+[2025-05-30 15:44:23] INFO: Server is listening on port 8080
+[2025-05-30 15:44:29] INFO: Database connection established
+[2025-05-30 15:44:29] INFO: Server is listening on port 8080
+[2025-05-30 15:44:36] INFO: Database connection established
+[2025-05-30 15:44:36] INFO: Server is listening on port 8080
+[2025-05-30 15:44:39] INFO: Database connection established
+[2025-05-30 15:44:39] INFO: Server is listening on port 8080
+[2025-05-30 15:44:41] INFO: Database connection established
+[2025-05-30 15:44:41] INFO: Server is listening on port 8080
+[2025-05-30 15:44:45] INFO: Database connection established
+[2025-05-30 15:44:45] INFO: Server is listening on port 8080
+[2025-05-30 15:45:30] INFO: Database connection established
+[2025-05-30 15:45:30] INFO: Server is listening on port 8080
+[2025-05-30 15:45:35] INFO: Database connection established
+[2025-05-30 15:45:35] INFO: Server is listening on port 8080
+[2025-05-30 15:45:42] INFO: Database connection established
+[2025-05-30 15:45:42] INFO: Server is listening on port 8080
+[2025-05-30 15:45:46] INFO: Database connection established
+[2025-05-30 15:45:46] INFO: Server is listening on port 8080
+[2025-05-30 15:45:51] INFO: Database connection established
+[2025-05-30 15:45:51] INFO: Server is listening on port 8080
+[2025-05-30 15:45:55] INFO: Database connection established
+[2025-05-30 15:45:55] INFO: Server is listening on port 8080
+[2025-05-30 15:45:59] INFO: Database connection established
+[2025-05-30 15:45:59] INFO: Server is listening on port 8080
+[2025-05-30 15:46:12] INFO: Database connection established
+[2025-05-30 15:46:12] INFO: Server is listening on port 8080
+[2025-05-30 15:46:17] INFO: Database connection established
+[2025-05-30 15:46:17] INFO: Server is listening on port 8080
+[2025-05-30 15:46:37] INFO: Database connection established
+[2025-05-30 15:46:37] INFO: Server is listening on port 8080
+[2025-05-30 15:47:19] INFO: Database connection established
+[2025-05-30 15:47:19] INFO: Server is listening on port 8080
+[2025-05-30 15:47:23] INFO: Database connection established
+[2025-05-30 15:47:23] INFO: Server is listening on port 8080
+[2025-05-30 15:47:31] INFO: Database connection established
+[2025-05-30 15:47:31] INFO: Server is listening on port 8080
+[2025-05-30 15:47:34] INFO: Database connection established
+[2025-05-30 15:47:34] INFO: Server is listening on port 8080
+[2025-05-30 15:47:38] INFO: Database connection established
+[2025-05-30 15:47:38] INFO: Server is listening on port 8080
+[2025-05-30 15:47:43] INFO: Database connection established
+[2025-05-30 15:47:43] INFO: Server is listening on port 8080
+[2025-05-30 15:47:46] INFO: Database connection established
+[2025-05-30 15:47:46] INFO: Server is listening on port 8080
+[2025-05-30 15:48:25] INFO: Database connection established
+[2025-05-30 15:48:25] INFO: Server is listening on port 8080
+[2025-05-30 15:48:28] INFO: Database connection established
+[2025-05-30 15:48:28] INFO: Server is listening on port 8080
+[2025-05-30 15:48:33] INFO: Database connection established
+[2025-05-30 15:48:33] INFO: Server is listening on port 8080
+[2025-05-30 15:48:40] INFO: Database connection established
+[2025-05-30 15:48:40] INFO: Server is listening on port 8080
+[2025-05-30 15:48:42] INFO: Database connection established
+[2025-05-30 15:48:43] INFO: Server is listening on port 8080
+[2025-05-30 15:48:49] INFO: Database connection established
+[2025-05-30 15:48:49] INFO: Server is listening on port 8080
+[2025-05-30 15:49:28] INFO: Database connection established
+[2025-05-30 15:49:28] INFO: Server is listening on port 8080
+[2025-05-30 15:49:34] INFO: Database connection established
+[2025-05-30 15:49:34] INFO: Server is listening on port 8080
+[2025-05-30 15:49:49] INFO: Database connection established
+[2025-05-30 15:49:49] INFO: Server is listening on port 8080
+[2025-05-30 15:49:54] INFO: Database connection established
+[2025-05-30 15:49:54] INFO: Server is listening on port 8080
+[2025-05-30 15:49:57] INFO: Database connection established
+[2025-05-30 15:49:57] INFO: Server is listening on port 8080
+[2025-05-30 15:50:03] INFO: Database connection established
+[2025-05-30 15:50:03] INFO: Server is listening on port 8080
+[2025-05-30 15:50:13] INFO: Database connection established
+[2025-05-30 15:50:13] INFO: Server is listening on port 8080
+[2025-05-30 15:50:46] INFO: Database connection established
+[2025-05-30 15:50:46] INFO: Server is listening on port 8080
+[2025-05-30 15:50:56] INFO: Database connection established
+[2025-05-30 15:50:56] INFO: Server is listening on port 8080
+[2025-05-30 15:50:59] INFO: Database connection established
+[2025-05-30 15:50:59] INFO: Server is listening on port 8080
+[2025-05-30 15:51:06] INFO: Database connection established
+[2025-05-30 15:51:06] INFO: Server is listening on port 8080
+[2025-05-30 15:51:08] INFO: Database connection established
+[2025-05-30 15:51:08] INFO: Server is listening on port 8080
+[2025-05-30 15:51:12] INFO: Database connection established
+[2025-05-30 15:51:12] INFO: Server is listening on port 8080
+[2025-05-30 15:51:28] INFO: Database connection established
+[2025-05-30 15:51:28] INFO: Server is listening on port 8080
+[2025-05-30 15:51:31] INFO: Database connection established
+[2025-05-30 15:51:31] INFO: Server is listening on port 8080
+[2025-05-30 15:51:35] INFO: Database connection established
+[2025-05-30 15:51:35] INFO: Server is listening on port 8080
+[2025-05-30 15:51:55] INFO: Database connection established
+[2025-05-30 15:51:55] INFO: Server is listening on port 8080
+[2025-05-30 15:51:57] INFO: Database connection established
+[2025-05-30 15:51:57] INFO: Server is listening on port 8080
+[2025-05-30 16:42:39] INFO: Database connection established
+[2025-05-30 16:42:39] INFO: Server is listening on port 8080
+[2025-05-30 16:42:39] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 16:42:39] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 16:42:48] INFO: [Mongoose] users.findOne {"$or":[{"email":"dev.tester008@gmail.com"}]} {}
+[2025-05-30 16:42:48] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 16:42:48] INFO: [Mongoose] users.insertOne {"firstName":"opara","lastName":"gregory","otherName":"bnnbnn","email":"dev.tester008@gmail.com","password":"$2b$12$lRcV23LMwxfL61a99Qz9kedFIX/fTdBy3HPOZ0XF6yrW8c4fD1Doi","accountStatus":"ACTIVE","tokens":[],"lastLogin":null,"termsAccepted":true,"role":"user","_id":"6839d1f846a017b36ddb8648","createdAt":"2025-05-30T15:42:48.510Z","updatedAt":"2025-05-30T15:42:48.510Z","__v":0} {}
+[2025-05-30 16:43:02] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 16:44:05] INFO: Database connection established
+[2025-05-30 16:44:05] INFO: Server is listening on port 8080
+[2025-05-30 16:44:05] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 16:44:05] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 16:44:07] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 16:44:07] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 16:44:08] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":0} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYxOTg0OCwiZXhwIjoxNzQ4NzA2MjQ4fQ.61221c8Y5eLWdT6F-QSDRwhbw3-Drw2yvfoWGVkKIuw"],"lastLogin":"2025-05-30T15:44:08.130Z","updatedAt":"2025-05-30T15:44:08.135Z"},"$inc":{"__v":1}}
+[2025-05-30 18:27:58] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 18:27:58] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":1} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYyNjA3OCwiZXhwIjoxNzQ4NzEyNDc4fQ.rjpfq1ZBZIscAn88w48JOk031PgWBOcdo3a8Rsr6T8o"],"lastLogin":"2025-05-30T17:27:58.677Z","updatedAt":"2025-05-30T17:27:58.682Z"},"$inc":{"__v":1}}
+[2025-05-30 19:06:49] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:06:49] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":2} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2Mjg0MDksImV4cCI6MTc0ODcxNDgwOX0.E78kOmCoRFnchk16iaosaQIabGLWvBG98-jAYet6Pmo"],"lastLogin":"2025-05-30T18:06:49.606Z","updatedAt":"2025-05-30T18:06:49.609Z"},"$inc":{"__v":1}}
+[2025-05-30 19:10:53] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:10:53] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":3} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2Mjg2NTMsImV4cCI6MTc0ODcxNTA1M30.P1j4bA-a4sWWfvnIXluPW7vgxs3aOrurZmcZbuQy1W8"],"lastLogin":"2025-05-30T18:10:53.850Z","updatedAt":"2025-05-30T18:10:53.851Z"},"$inc":{"__v":1}}
+[2025-05-30 19:35:00] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:35:11] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:35:22] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:35:24] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:42:17] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:42:45] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:42:53] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:43:25] INFO: Database connection established
+[2025-05-30 19:43:25] INFO: Server is listening on port 8080
+[2025-05-30 19:43:25] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 19:43:25] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 19:44:17] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:44:17] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 19:44:18] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":4} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYzMDY1OCwiZXhwIjoxNzQ4NzE3MDU4fQ.QFRiDgGjHUrE19Gjw59rJg8IRggIe3343iRr8R2-MW0"],"lastLogin":"2025-05-30T18:44:18.368Z","updatedAt":"2025-05-30T18:44:18.381Z"},"$inc":{"__v":1}}
+[2025-05-30 19:47:03] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:47:04] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":5} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzA4MjQsImV4cCI6MTc0ODcxNzIyNH0.yuLzN_2iOVtoSkDv2ADTC6RGTi_Zow564XXoBzfWTDw"],"lastLogin":"2025-05-30T18:47:04.157Z","updatedAt":"2025-05-30T18:47:04.160Z"},"$inc":{"__v":1}}
+[2025-05-30 19:57:03] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:57:04] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":6} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzE0MjQsImV4cCI6MTc0ODcxNzgyNH0.b47A8AinjXMG7wwdzUZ5alfoIIOPtxFV0XotbzB9OnI"],"lastLogin":"2025-05-30T18:57:04.315Z","updatedAt":"2025-05-30T18:57:04.317Z"},"$inc":{"__v":1}}
+[2025-05-30 19:57:47] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 19:57:48] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":7} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzE0NjgsImV4cCI6MTc0ODcxNzg2OH0.4EPpt4PBK4ThMeB0oBUquAwYw37QB2XkVGeiXulBwz0"],"lastLogin":"2025-05-30T18:57:48.170Z","updatedAt":"2025-05-30T18:57:48.170Z"},"$inc":{"__v":1}}
+[2025-05-30 20:01:31] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:01:31] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":8} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzE2OTEsImV4cCI6MTc0ODcxODA5MX0.Jk6hppgEBwC7hqdmR_ULTwmnpnvmp-Iww8RYKhdlX00"],"lastLogin":"2025-05-30T19:01:31.882Z","updatedAt":"2025-05-30T19:01:31.883Z"},"$inc":{"__v":1}}
+[2025-05-30 20:04:01] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:04:01] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":9} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzE4NDEsImV4cCI6MTc0ODcxODI0MX0.HKJi0rwy8rTZs26FOZu1VZ45bh0bi6lPUA-aeyOSX2s"],"lastLogin":"2025-05-30T19:04:01.814Z","updatedAt":"2025-05-30T19:04:01.815Z"},"$inc":{"__v":1}}
+[2025-05-30 20:06:29] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:06:29] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":10} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzE5ODksImV4cCI6MTc0ODcxODM4OX0.ShKpRWcc9d77q3eJHtkPOX4xpl6MxBGhnmrWsjws5ew"],"lastLogin":"2025-05-30T19:06:29.617Z","updatedAt":"2025-05-30T19:06:29.618Z"},"$inc":{"__v":1}}
+[2025-05-30 20:10:43] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:10:43] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":11} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzIyNDMsImV4cCI6MTc0ODcxODY0M30.1aJ74249rK7kTkoj5lTnZekysIWzdol_PsObcgSia9c"],"lastLogin":"2025-05-30T19:10:43.574Z","updatedAt":"2025-05-30T19:10:43.575Z"},"$inc":{"__v":1}}
+[2025-05-30 20:12:30] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:12:30] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":12} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzIzNTAsImV4cCI6MTc0ODcxODc1MH0.A1WnVP1wvBEdwov925LJc_z8nh3A-67KKvO6VsTTquI"],"lastLogin":"2025-05-30T19:12:30.868Z","updatedAt":"2025-05-30T19:12:30.868Z"},"$inc":{"__v":1}}
+[2025-05-30 20:13:20] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:13:21] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":13} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzI0MDEsImV4cCI6MTc0ODcxODgwMX0.iG3T2LHG9no1QTicVagLTS8wr1ZX82rISAD3iTL3pu8"],"lastLogin":"2025-05-30T19:13:21.327Z","updatedAt":"2025-05-30T19:13:21.329Z"},"$inc":{"__v":1}}
+[2025-05-30 20:13:51] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:13:52] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":14} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzI0MzIsImV4cCI6MTc0ODcxODgzMn0.MS6Jx3mPtmF1wQYk4BGcTnRQ0CFZn_905UK9aBurWac"],"lastLogin":"2025-05-30T19:13:52.316Z","updatedAt":"2025-05-30T19:13:52.316Z"},"$inc":{"__v":1}}
+[2025-05-30 20:14:29] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:14:32] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:14:57] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:14:57] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":15} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYzMjQ5NywiZXhwIjoxNzQ4NzE4ODk3fQ.GIMRSO9r5jslLus6kQYSWZezXxwdZJB05Q8chh0pOHQ"],"lastLogin":"2025-05-30T19:14:57.939Z","updatedAt":"2025-05-30T19:14:57.939Z"},"$inc":{"__v":1}}
+[2025-05-30 20:16:02] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:16:02] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":16} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYzMjU2MiwiZXhwIjoxNzQ4NzE4OTYyfQ.-oej1nQY8k5Hr1lALx014DyBv_PLF5QYnqxGWMlDSxQ"],"lastLogin":"2025-05-30T19:16:02.772Z","updatedAt":"2025-05-30T19:16:02.772Z"},"$inc":{"__v":1}}
+[2025-05-30 20:16:36] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:16:37] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":17} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzI1OTcsImV4cCI6MTc0ODcxODk5N30.iUwNbsk5sVn1ijp-m-Z6jGJuIGeRDLYbXU1hI_dH5gw"],"lastLogin":"2025-05-30T19:16:37.094Z","updatedAt":"2025-05-30T19:16:37.095Z"},"$inc":{"__v":1}}
+[2025-05-30 20:16:56] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:16:57] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":18} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzI2MTcsImV4cCI6MTc0ODcxOTAxN30.0ISp9bif2RfvEcOB9Ns1bEsy6lMmt41hHMprNSyf6Jk"],"lastLogin":"2025-05-30T19:16:57.186Z","updatedAt":"2025-05-30T19:16:57.186Z"},"$inc":{"__v":1}}
+[2025-05-30 20:17:31] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:17:31] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":19} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzI2NTEsImV4cCI6MTc0ODcxOTA1MX0.AA7wgey2ff1e3pk3mwjQKQKlRFEZ6bDyL4LQUrBwFe0"],"lastLogin":"2025-05-30T19:17:31.386Z","updatedAt":"2025-05-30T19:17:31.386Z"},"$inc":{"__v":1}}
+[2025-05-30 20:20:56] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:20:56] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":20} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzI4NTYsImV4cCI6MTc0ODcxOTI1Nn0.D4xIaekS_VaGnBlfP4bdSdmMbydbZMI_1MalsEbn0BQ"],"lastLogin":"2025-05-30T19:20:56.390Z","updatedAt":"2025-05-30T19:20:56.391Z"},"$inc":{"__v":1}}
+[2025-05-30 20:21:42] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:21:42] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":21} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzI5MDIsImV4cCI6MTc0ODcxOTMwMn0.gO1V2nNIJgCVSHf4-Zw9ZdDeoFpoRF92CYsShe00REE"],"lastLogin":"2025-05-30T19:21:42.809Z","updatedAt":"2025-05-30T19:21:42.809Z"},"$inc":{"__v":1}}
+[2025-05-30 20:23:25] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:23:25] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":22} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzMwMDUsImV4cCI6MTc0ODcxOTQwNX0.EhWs_FlR3PvtDhpTI3sqlIEaZ9m7vZGOZmdKczijbl8"],"lastLogin":"2025-05-30T19:23:25.765Z","updatedAt":"2025-05-30T19:23:25.766Z"},"$inc":{"__v":1}}
+[2025-05-30 20:40:30] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:40:30] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":23} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzQwMzAsImV4cCI6MTc0ODcyMDQzMH0.JPtfNxVXbRRgrYTErmJzvdwvy6hT1mfqiBGbr0pcflE"],"lastLogin":"2025-05-30T19:40:30.930Z","updatedAt":"2025-05-30T19:40:30.932Z"},"$inc":{"__v":1}}
+[2025-05-30 20:51:52] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:51:53] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":24} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzQ3MTMsImV4cCI6MTc0ODcyMTExM30.bD2vvllcZTrIfH-GfGBUkRovPgftfxvgRDiO1h5vKWI"],"lastLogin":"2025-05-30T19:51:53.224Z","updatedAt":"2025-05-30T19:51:53.224Z"},"$inc":{"__v":1}}
+[2025-05-30 20:57:38] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:57:44] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 20:57:45] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":25} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYzNTA2NSwiZXhwIjoxNzQ4NzIxNDY1fQ.ABFM1cu4USy9VFZQWGX63wrRP65G3Aq1cYVUKTN5r-Q"],"lastLogin":"2025-05-30T19:57:45.245Z","updatedAt":"2025-05-30T19:57:45.247Z"},"$inc":{"__v":1}}
+[2025-05-30 21:00:01] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 21:00:01] INFO: [Mongoose] users.updateOne {"_id":"6839d1f846a017b36ddb8648","__v":26} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzlkMWY4NDZhMDE3YjM2ZGRiODY0OCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzUyMDEsImV4cCI6MTc0ODcyMTYwMX0.juC9MiZz4WhNH7ZcItnMtnGu29qwgpaRrfgRr_iWmCE"],"lastLogin":"2025-05-30T20:00:01.783Z","updatedAt":"2025-05-30T20:00:01.783Z"},"$inc":{"__v":1}}
+[2025-05-30 21:05:41] INFO: Database connection established
+[2025-05-30 21:05:41] INFO: Server is listening on port 8080
+[2025-05-30 21:05:41] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:05:41] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:06:19] INFO: Database connection established
+[2025-05-30 21:06:19] INFO: Server is listening on port 8080
+[2025-05-30 21:06:19] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:06:19] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:09:26] INFO: Database connection established
+[2025-05-30 21:09:26] INFO: Server is listening on port 8080
+[2025-05-30 21:09:26] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:09:26] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:10:32] INFO: [Mongoose] users.findOne {"$or":[{"email":"dev.tester008@gmail.com"}]} {}
+[2025-05-30 21:10:32] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 21:10:32] INFO: [Mongoose] users.insertOne {"firstName":"opara","lastName":"gregory","otherName":"bnnbnn","email":"dev.tester008@gmail.com","password":"$2b$12$ZKuqE8sObbq5YQoOUvkQQ.Am7z6IBPfk.Q7lxExGa9X685A52s7kW","accountStatus":"ACTIVE","tokens":[],"lastLogin":null,"termsAccepted":true,"role":"user","_id":"683a10b823bf771a098d772d","createdAt":"2025-05-30T20:10:32.523Z","updatedAt":"2025-05-30T20:10:32.523Z","__v":0} {}
+[2025-05-30 21:10:39] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 21:10:39] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":0} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYzNTgzOSwiZXhwIjoxNzQ4NzIyMjM5fQ.Av2y5RPP2sTolMZBQpvKmAV7Jj_289SmcOBY_Bhfhuk"],"lastLogin":"2025-05-30T20:10:39.431Z","updatedAt":"2025-05-30T20:10:39.431Z"},"$inc":{"__v":1}}
+[2025-05-30 21:11:36] INFO: Database connection established
+[2025-05-30 21:11:36] INFO: Server is listening on port 8080
+[2025-05-30 21:11:36] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:11:36] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:11:41] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 21:11:41] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 21:11:41] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":1} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYzNTkwMSwiZXhwIjoxNzQ4NzIyMzAxfQ.BwdcO3M7LD4rMfB0tGgy4PS9AjJ1ZTaSo5LNahcd6H0"],"lastLogin":"2025-05-30T20:11:41.972Z","updatedAt":"2025-05-30T20:11:41.978Z"},"$inc":{"__v":1}}
+[2025-05-30 21:11:49] INFO: MongoDB disconnected. Attempting to reconnect...
+[2025-05-30 21:11:59] INFO: MongoDB disconnected. Attempting to reconnect...
+[2025-05-30 21:12:01] ERROR: [object Object]
+[2025-05-30 21:12:14] INFO: MongoDB disconnected. Attempting to reconnect...
+[2025-05-30 21:17:31] INFO: Database connection established
+[2025-05-30 21:17:31] INFO: Server is listening on port 8080
+[2025-05-30 21:17:31] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:17:31] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:18:11] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 21:18:11] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 21:18:12] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":2} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYzNjI5MiwiZXhwIjoxNzQ4NzIyNjkyfQ.zb5CqnzPmVgHCOnOQW-LRQpfASgEGFEEEcFQLDH5A1E"],"lastLogin":"2025-05-30T20:18:12.157Z","updatedAt":"2025-05-30T20:18:12.161Z"},"$inc":{"__v":1}}
+[2025-05-30 21:19:16] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 21:19:16] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":3} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2MzYzNTYsImV4cCI6MTc0ODcyMjc1Nn0.8C4lnB_c1kyT8eqnd_oimBOjy3uLSnfiHuu5YyPexiM"],"lastLogin":"2025-05-30T20:19:16.510Z","updatedAt":"2025-05-30T20:19:16.511Z"},"$inc":{"__v":1}}
+[2025-05-30 21:22:05] INFO: Database connection established
+[2025-05-30 21:22:05] INFO: Server is listening on port 8080
+[2025-05-30 21:22:05] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:22:05] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:22:30] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 21:22:30] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 21:26:30] INFO: Database connection established
+[2025-05-30 21:26:30] INFO: Server is listening on port 8080
+[2025-05-30 21:26:30] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:26:30] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:30:43] INFO: Database connection established
+[2025-05-30 21:30:43] INFO: Server is listening on port 8080
+[2025-05-30 21:30:43] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:30:43] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:32:27] INFO: Database connection established
+[2025-05-30 21:32:27] INFO: Server is listening on port 8080
+[2025-05-30 21:32:27] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:32:28] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:33:43] INFO: Database connection established
+[2025-05-30 21:33:43] INFO: Server is listening on port 8080
+[2025-05-30 21:33:43] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:33:43] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:33:56] INFO: Database connection established
+[2025-05-30 21:34:43] INFO: Database connection established
+[2025-05-30 21:34:43] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 21:34:43] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 21:34:43] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 21:34:43] INFO: [Mongoose] products.insertMany [{"timeStamp":"2025-05-30T20:34:43.399Z","name":"Smartphone X","description":"Flagship phone with cutting-edge technology","code":"SPX123","category":"Electronics","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"spx1","_id":"683a16630d86ad813784504e"}],"price":799,"stock":50,"_id":"683a16630d86ad813784504d","createdAt":"2025-05-30T20:34:43.436Z","updatedAt":"2025-05-30T20:34:43.436Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"Laptop Pro","description":"Powerful laptop for professionals","code":"LP456","category":"Electronics","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"lp1","_id":"683a16630d86ad8137845050"}],"price":1299,"stock":30,"_id":"683a16630d86ad813784504f","createdAt":"2025-05-30T20:34:43.437Z","updatedAt":"2025-05-30T20:34:43.437Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"Wireless Earbuds","description":"Noise-canceling wireless earbuds","code":"WE789","category":"Accessories","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"we1","_id":"683a16630d86ad8137845052"}],"price":199,"stock":100,"_id":"683a16630d86ad8137845051","createdAt":"2025-05-30T20:34:43.437Z","updatedAt":"2025-05-30T20:34:43.437Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"Gaming Monitor","description":"High refresh rate gaming monitor","code":"GM101","category":"Electronics","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"gm1","_id":"683a16630d86ad8137845054"}],"price":599,"stock":20,"_id":"683a16630d86ad8137845053","createdAt":"2025-05-30T20:34:43.438Z","updatedAt":"2025-05-30T20:34:43.438Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"Mechanical Keyboard","description":"RGB mechanical keyboard for gaming","code":"MK202","category":"Accessories","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"mk1","_id":"683a16630d86ad8137845056"}],"price":149,"stock":75,"_id":"683a16630d86ad8137845055","createdAt":"2025-05-30T20:34:43.438Z","updatedAt":"2025-05-30T20:34:43.438Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"Smart Watch","description":"Feature-packed smartwatch for fitness tracking","code":"SW303","category":"Wearables","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.pngg","id":"sw1","_id":"683a16630d86ad8137845058"}],"price":349,"stock":40,"_id":"683a16630d86ad8137845057","createdAt":"2025-05-30T20:34:43.438Z","updatedAt":"2025-05-30T20:34:43.438Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"Portable Speaker","description":"Bluetooth speaker with rich sound quality","code":"PS404","category":"Audio","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"ps1","_id":"683a16630d86ad813784505a"}],"price":129,"stock":60,"_id":"683a16630d86ad8137845059","createdAt":"2025-05-30T20:34:43.438Z","updatedAt":"2025-05-30T20:34:43.438Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"VR Headset","description":"Immersive virtual reality gaming headset","code":"VR505","category":"Gaming","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"vr1","_id":"683a16630d86ad813784505c"}],"price":499,"stock":15,"_id":"683a16630d86ad813784505b","createdAt":"2025-05-30T20:34:43.438Z","updatedAt":"2025-05-30T20:34:43.438Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"Drone Pro","description":"Advanced drone with HD camera","code":"DP606","category":"Drones","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"dp1","_id":"683a16630d86ad813784505e"}],"price":899,"stock":10,"_id":"683a16630d86ad813784505d","createdAt":"2025-05-30T20:34:43.438Z","updatedAt":"2025-05-30T20:34:43.438Z"},{"timeStamp":"2025-05-30T20:34:43.399Z","name":"4K Action Camera","description":"Waterproof action camera for adventures","code":"AC707","category":"Cameras","photos":[{"url":"https://res.cloudinary.com/organicstall/image/upload/v1739317139/xrqvqg4iupayickqrffj.png","id":"ac1","_id":"683a16630d86ad8137845060"}],"price":399,"stock":25,"_id":"683a16630d86ad813784505f","createdAt":"2025-05-30T20:34:43.438Z","updatedAt":"2025-05-30T20:34:43.438Z"}] {}
+[2025-05-30 21:34:43] INFO: Server is listening on port 8080
+[2025-05-30 21:34:59] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 21:34:59] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 21:36:55] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 21:36:55] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 21:36:55] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":4} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDg2Mzc0MTUsImV4cCI6MTc0ODcyMzgxNX0.tt0A57goN7Prf1k36Q5GnZg-sckdNNMvjsa6JujRxFY"],"lastLogin":"2025-05-30T20:36:55.416Z","updatedAt":"2025-05-30T20:36:55.418Z"},"$inc":{"__v":1}}
+[2025-05-30 21:37:27] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 21:37:28] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":5} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODYzNzQ0OCwiZXhwIjoxNzQ4NzIzODQ4fQ.RHhNn_3FPP_XQkYCHyrZ-gbQJOPrRZYot6-qXHkavLY"],"lastLogin":"2025-05-30T20:37:28.050Z","updatedAt":"2025-05-30T20:37:28.050Z"},"$inc":{"__v":1}}
+[2025-05-30 21:40:45] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 21:40:45] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 21:40:46] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 21:40:46] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 21:41:28] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 21:41:28] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 21:41:28] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 21:41:28] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:01:49] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:01:49] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:01:49] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:01:49] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:01:57] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:01:57] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:01:57] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:01:57] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:02:18] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:02:18] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:03:01] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:03:01] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:03:01] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:03:01] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:03:43] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:03:43] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:03:44] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:03:44] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:06:23] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:06:23] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:06:23] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:06:23] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:11:18] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:11:18] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:11:18] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:11:18] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:16:32] INFO: Database connection established
+[2025-05-30 22:16:32] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:16:32] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:16:32] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:16:32] INFO: Server is listening on port 8080
+[2025-05-30 22:18:44] INFO: Database connection established
+[2025-05-30 22:18:44] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:18:44] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:18:44] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:18:44] INFO: Server is listening on port 8080
+[2025-05-30 22:28:12] INFO: Database connection established
+[2025-05-30 22:28:12] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:28:12] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:28:12] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:28:12] INFO: Server is listening on port 8080
+[2025-05-30 22:28:17] INFO: [Mongoose] products.findOne {"_id":"1234567890abcdef12345678"} {}
+[2025-05-30 22:28:40] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:28:40] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:28:40] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:28:40] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:29:13] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845051"} {}
+[2025-05-30 22:34:12] INFO: Database connection established
+[2025-05-30 22:34:12] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:34:12] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:34:12] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:34:12] INFO: Server is listening on port 8080
+[2025-05-30 22:34:21] INFO: Database connection established
+[2025-05-30 22:34:21] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:34:21] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:34:21] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:34:21] INFO: Server is listening on port 8080
+[2025-05-30 22:34:29] INFO: Database connection established
+[2025-05-30 22:34:29] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:34:29] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:34:29] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:34:29] INFO: Server is listening on port 8080
+[2025-05-30 22:34:39] INFO: Database connection established
+[2025-05-30 22:34:39] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:34:39] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:34:39] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:34:39] INFO: Server is listening on port 8080
+[2025-05-30 22:34:46] INFO: Database connection established
+[2025-05-30 22:34:46] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:34:46] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:34:46] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:34:46] INFO: Server is listening on port 8080
+[2025-05-30 22:35:55] INFO: Database connection established
+[2025-05-30 22:35:55] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:35:55] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:35:55] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:35:55] INFO: Server is listening on port 8080
+[2025-05-30 22:35:59] INFO: Database connection established
+[2025-05-30 22:35:59] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:35:59] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:35:59] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:35:59] INFO: Server is listening on port 8080
+[2025-05-30 22:36:02] INFO: Database connection established
+[2025-05-30 22:36:02] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:36:02] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:36:02] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:36:02] INFO: Server is listening on port 8080
+[2025-05-30 22:36:10] INFO: Database connection established
+[2025-05-30 22:36:10] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:36:10] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:36:10] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:36:10] INFO: Server is listening on port 8080
+[2025-05-30 22:36:20] INFO: Database connection established
+[2025-05-30 22:36:20] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:36:20] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:36:20] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:36:20] INFO: Server is listening on port 8080
+[2025-05-30 22:36:23] INFO: Database connection established
+[2025-05-30 22:36:23] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:36:23] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:36:23] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:36:23] INFO: Server is listening on port 8080
+[2025-05-30 22:37:45] INFO: Database connection established
+[2025-05-30 22:37:45] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:37:45] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:37:45] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:37:45] INFO: Server is listening on port 8080
+[2025-05-30 22:37:52] INFO: Database connection established
+[2025-05-30 22:37:52] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:37:52] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:37:52] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:37:52] INFO: Server is listening on port 8080
+[2025-05-30 22:37:55] INFO: Database connection established
+[2025-05-30 22:37:55] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:37:55] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:37:55] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:37:55] INFO: Server is listening on port 8080
+[2025-05-30 22:38:01] INFO: Database connection established
+[2025-05-30 22:38:01] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:38:01] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:38:01] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:38:01] INFO: Server is listening on port 8080
+[2025-05-30 22:38:06] INFO: Database connection established
+[2025-05-30 22:38:06] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:38:06] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:38:06] INFO: [Mongoose] orders.createIndex {"paymentReference":1} {"unique":true,"background":true}
+[2025-05-30 22:38:06] INFO: Server is listening on port 8080
+[2025-05-30 22:38:29] INFO: Database connection established
+[2025-05-30 22:38:29] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:38:29] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:38:29] INFO: Server is listening on port 8080
+[2025-05-30 22:38:32] INFO: Database connection established
+[2025-05-30 22:38:32] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:38:32] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:38:32] INFO: Server is listening on port 8080
+[2025-05-30 22:39:10] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 22:39:10] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 22:39:11] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":6} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODY0MTE1MSwiZXhwIjoxNzQ4NzI3NTUxfQ.t5bIWz3chF1Gf6W1VshD_iL8XoDEait8cInlohOop0E"],"lastLogin":"2025-05-30T21:39:11.121Z","updatedAt":"2025-05-30T21:39:11.128Z"},"$inc":{"__v":1}}
+[2025-05-30 22:41:35] INFO: Database connection established
+[2025-05-30 22:41:35] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:41:35] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:41:35] INFO: Server is listening on port 8080
+[2025-05-30 22:42:51] INFO: Database connection established
+[2025-05-30 22:42:51] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:42:51] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:42:51] INFO: Server is listening on port 8080
+[2025-05-30 22:42:57] INFO: Database connection established
+[2025-05-30 22:42:57] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:42:57] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:42:57] INFO: Server is listening on port 8080
+[2025-05-30 22:43:13] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845051"} {"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:43:42] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845051"} {"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:45:16] INFO: Database connection established
+[2025-05-30 22:45:16] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:45:16] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:45:16] INFO: Server is listening on port 8080
+[2025-05-30 22:45:26] INFO: Database connection established
+[2025-05-30 22:45:26] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:45:26] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:45:26] INFO: Server is listening on port 8080
+[2025-05-30 22:45:59] INFO: Database connection established
+[2025-05-30 22:45:59] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:45:59] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:45:59] INFO: Server is listening on port 8080
+[2025-05-30 22:46:03] INFO: Database connection established
+[2025-05-30 22:46:03] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:46:03] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:46:03] INFO: Server is listening on port 8080
+[2025-05-30 22:46:10] INFO: Database connection established
+[2025-05-30 22:46:11] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:46:11] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:46:11] INFO: Server is listening on port 8080
+[2025-05-30 22:48:56] INFO: Database connection established
+[2025-05-30 22:48:56] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:48:56] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:48:56] INFO: Server is listening on port 8080
+[2025-05-30 22:49:04] INFO: Database connection established
+[2025-05-30 22:49:04] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:49:04] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:49:04] INFO: Server is listening on port 8080
+[2025-05-30 22:49:09] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845051"} {"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:49:11] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":199,"items":[{"productId":"683a16630d86ad8137845051","quantity":1,"_id":"683a27d7d885aa2703a400f6"}],"date":"2025-05-30T21:49:11.253Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748641749963","paymentStatus":"pending","_id":"683a27d7d885aa2703a400f5","__v":0} {}
+[2025-05-30 22:49:11] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845051"} {}
+[2025-05-30 22:49:11] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad8137845051"} {"$set":{"stock":99,"updatedAt":"2025-05-30T21:49:11.297Z"}}
+[2025-05-30 22:52:00] INFO: Database connection established
+[2025-05-30 22:52:00] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:52:00] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 22:52:00] INFO: Server is listening on port 8080
+[2025-05-30 22:52:22] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845051"} {"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:52:23] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":199,"items":[{"productId":"683a16630d86ad8137845051","quantity":1,"_id":"683a2897b10074d0fe87c176"}],"date":"2025-05-30T21:52:23.183Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748641942366","paymentStatus":"pending","_id":"683a2897b10074d0fe87c175","__v":0} {}
+[2025-05-30 22:52:23] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845051"} {}
+[2025-05-30 22:52:23] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad8137845051"} {"$set":{"stock":98,"updatedAt":"2025-05-30T21:52:23.224Z"}}
+[2025-05-30 22:52:44] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-05-30 22:52:44] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-05-30 22:52:45] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":7} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODY0MTk2NSwiZXhwIjoxNzQ4NzI4MzY1fQ.F-ex4_HSQDxNA_qaL2HegUiqaz4UwdwA3IaDn4Aj5iQ"],"lastLogin":"2025-05-30T21:52:45.253Z","updatedAt":"2025-05-30T21:52:45.254Z"},"$inc":{"__v":1}}
+[2025-05-30 22:52:46] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:52:46] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:52:46] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:52:46] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:53:06] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:53:06] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:53:06] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:53:06] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:58:34] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:58:34] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:58:34] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:58:34] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:58:36] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504d"} {"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:58:37] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":799,"items":[{"productId":"683a16630d86ad813784504d","quantity":1,"_id":"683a2a0db10074d0fe87c1c9"}],"date":"2025-05-30T21:58:37.648Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748642316967","paymentStatus":"pending","_id":"683a2a0db10074d0fe87c1c8","__v":0} {}
+[2025-05-30 22:58:37] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504d"} {}
+[2025-05-30 22:58:37] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784504d"} {"$set":{"stock":49,"updatedAt":"2025-05-30T21:58:37.663Z"}}
+[2025-05-30 22:58:57] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:58:57] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 22:58:57] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 22:58:57] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:02:52] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:02:52] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:02:52] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:02:52] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:04:31] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:04:32] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"683a2b70b10074d0fe87c201"}],"date":"2025-05-30T22:04:32.744Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748642671976","paymentStatus":"pending","_id":"683a2b70b10074d0fe87c200","__v":0} {}
+[2025-05-30 23:04:32] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-05-30 23:04:32] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":14,"updatedAt":"2025-05-30T22:04:32.763Z"}}
+[2025-05-30 23:04:43] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:04:44] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:04:44] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:04:44] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:04:59] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:04:59] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:04:59] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:04:59] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:16:37] INFO: Database connection established
+[2025-05-30 23:16:37] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:16:37] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 23:16:37] INFO: Server is listening on port 8080
+[2025-05-30 23:16:42] INFO: Database connection established
+[2025-05-30 23:16:42] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:16:42] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 23:16:42] INFO: Server is listening on port 8080
+[2025-05-30 23:16:51] INFO: Database connection established
+[2025-05-30 23:16:51] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:16:51] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-05-30 23:16:51] INFO: Server is listening on port 8080
+[2025-05-30 23:18:35] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:18:36] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"683a2ebcb7e26aaed322b6c5"}],"date":"2025-05-30T22:18:36.263Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748643515427","paymentStatus":"pending","_id":"683a2ebcb7e26aaed322b6c4","__v":0} {}
+[2025-05-30 23:18:36] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-05-30 23:18:36] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":13,"updatedAt":"2025-05-30T22:18:36.331Z"}}
+[2025-05-30 23:18:47] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:18:47] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:18:47] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:18:47] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:31:45] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:31:45] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:31:45] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:31:45] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:33:31] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:33:31] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:33:31] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:33:31] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:33:49] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:33:49] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:33:49] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:33:49] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:33:52] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504d"} {"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:33:53] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":799,"items":[{"productId":"683a16630d86ad813784504d","quantity":1,"_id":"683a3251b7e26aaed322b72d"}],"date":"2025-05-30T22:33:53.119Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748644432044","paymentStatus":"pending","_id":"683a3251b7e26aaed322b72c","__v":0} {}
+[2025-05-30 23:33:53] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504d"} {}
+[2025-05-30 23:33:53] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784504d"} {"$set":{"stock":48,"updatedAt":"2025-05-30T22:33:53.148Z"}}
+[2025-05-30 23:34:11] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:34:11] INFO: [Mongoose] products.countDocuments {} {}
+[2025-05-30 23:34:11] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-05-30 23:34:11] INFO: [Mongoose] products.countDocuments {} {}

@@ -1,0 +1,156 @@
+
+  .loginContainer {
+    min-height: 120vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2rem;
+  }
+  
+.titleLight {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.title {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.errorText{
+    color: red;
+}
+
+.loginCard {
+    position: relative;
+    margin-top: 40px; 
+    max-width: 100%;
+    margin: 2rem auto;
+    width: 500px;
+    height: 50vh;
+    background:  rgb(238, 238, 238);
+    border-radius: 24px;
+    box-shadow: 0 0 15px var(--page-background);
+    backdrop-filter: blur(8px);
+}
+
+.registerCard {
+  position: relative;
+  margin-top: 40px; 
+  max-width: 100%;
+  margin: 2rem auto;
+  width: 500px;
+  height: 70vh;
+  background:  rgb(238, 238, 238);
+  border-radius: 24px;
+  box-shadow: 0 0 15px var(--page-background);
+  backdrop-filter: blur(8px);
+}
+  
+.loginForm {
+    width: 80%;
+    padding: 2rem;
+}
+  
+.formGroup {
+    margin-bottom: 1.5rem;
+    margin: auto;
+}
+  
+.inputBox {
+    position: relative;
+    margin-bottom: 1rem;
+}
+  
+.inputBox input {
+    width: 100%;
+    height: 48px;
+    background: transparent;
+    border: 2px solid var(--count-cart-bg);
+    border-radius: 24px;
+    color: #070707;
+    padding: 0 1.25rem;
+    transition: all 0.3s ease;
+}
+  
+  .inputBox input:focus {
+    outline: none;
+    border-color: var(--hover-color);
+    box-shadow: 0 0 5px var(--hover-color);
+  }
+  
+  .inputBox label {
+    position: absolute;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-color-black);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    background: transparent;
+    padding: 0 0.5rem;
+  }
+  
+  .inputBox input:focus ~ label,
+  .inputBox input:not(:placeholder-shown) ~ label {
+    top: 0;
+    transform: translateY(-50%) scale(0.9);
+    background: white;
+    color: var(--hover-color);
+  }
+  
+.signupText {
+    color: #000;
+    font-size: 1em;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+}
+.passwordViewHide{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+  
+  .inputBox .invalid-feedback {
+    position: absolute;
+    bottom: -20px;
+    left: 1.25rem;
+    color: #ff4136;
+  }
+  
+  
+  @media screen and (min-width: 320px) and (max-width: 414px) {
+    .loginContainer {
+      padding: 1rem;
+      height: 120vh;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .loginCard {
+      width: 95%;
+      margin: 1rem auto;
+    }
+    .loginForm {
+        width: 70%;
+        padding: 2rem;
+    }
+      
+    .inputBox input {
+      height: 40px;
+      font-size: 14px;
+      padding: 0 1rem;
+    }
+  }
+
