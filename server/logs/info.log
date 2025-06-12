@@ -558,3 +558,223 @@
 [2025-05-30 23:34:11] INFO: [Mongoose] products.countDocuments {} {}
 [2025-05-30 23:34:11] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
 [2025-05-30 23:34:11] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:44:32] INFO: Database connection established
+[2025-06-01 23:44:32] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:44:32] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-01 23:44:32] INFO: Server is listening on port 8080
+[2025-06-01 23:46:41] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-06-01 23:46:41] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-06-01 23:46:41] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":8} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODgxODAwMSwiZXhwIjoxNzQ4OTA0NDAxfQ.ByCw1lbTOMlcasNQKJ2y6_Wlatpk_tYdl6DgEfQhv6w"],"lastLogin":"2025-06-01T22:46:41.674Z","updatedAt":"2025-06-01T22:46:41.680Z"},"$inc":{"__v":1}}
+[2025-06-01 23:46:47] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:46:47] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:46:47] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:46:47] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:48:37] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845053"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:48:38] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":599,"items":[{"productId":"683a16630d86ad8137845053","quantity":1,"_id":"683cd8c6278c573ca9c405b2"}],"date":"2025-06-01T22:48:38.949Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748818117935","paymentStatus":"pending","_id":"683cd8c6278c573ca9c405b1","__v":0} {}
+[2025-06-01 23:48:39] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845053"} {}
+[2025-06-01 23:48:39] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad8137845053"} {"$set":{"stock":19,"updatedAt":"2025-06-01T22:48:39.020Z"}}
+[2025-06-01 23:49:10] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:49:10] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:49:10] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:49:10] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:49:27] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845053"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:49:28] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":599,"items":[{"productId":"683a16630d86ad8137845053","quantity":1,"_id":"683cd8f8278c573ca9c405d2"}],"date":"2025-06-01T22:49:28.815Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748818167751","paymentStatus":"pending","_id":"683cd8f8278c573ca9c405d1","__v":0} {}
+[2025-06-01 23:49:28] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845053"} {}
+[2025-06-01 23:49:28] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad8137845053"} {"$set":{"stock":18,"updatedAt":"2025-06-01T22:49:28.824Z"}}
+[2025-06-01 23:49:43] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:49:43] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:49:43] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:49:43] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:52:01] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:52:01] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:52:01] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:52:01] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:55:44] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504f"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:55:45] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":1299,"items":[{"productId":"683a16630d86ad813784504f","quantity":1,"_id":"683cda71278c573ca9c4060a"}],"date":"2025-06-01T22:55:45.228Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1748818544321","paymentStatus":"pending","_id":"683cda71278c573ca9c40609","__v":0} {}
+[2025-06-01 23:55:45] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504f"} {}
+[2025-06-01 23:55:45] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784504f"} {"$set":{"stock":29,"updatedAt":"2025-06-01T22:55:45.235Z"}}
+[2025-06-01 23:56:40] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:56:40] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:56:40] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:56:40] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:58:01] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:58:01] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:58:01] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:58:01] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:59:18] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-06-01 23:59:25] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-06-01 23:59:25] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":9} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0ODgxODc2NSwiZXhwIjoxNzQ4OTA1MTY1fQ.7wA1Cr0e85K0vJJzxnDX4sEmKcLXprM36163hRdsA3k"],"lastLogin":"2025-06-01T22:59:25.803Z","updatedAt":"2025-06-01T22:59:25.804Z"},"$inc":{"__v":1}}
+[2025-06-01 23:59:27] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:59:27] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-01 23:59:27] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-01 23:59:27] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-02 00:02:25] INFO: Database connection established
+[2025-06-02 00:02:25] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-02 00:02:25] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-02 00:02:25] INFO: Server is listening on port 8080
+[2025-06-12 12:00:23] INFO: Database connection established
+[2025-06-12 12:00:23] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:00:23] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:00:23] INFO: Server is listening on port 8080
+[2025-06-12 12:02:51] INFO: [Mongoose] users.findOne {"email":"dev.tester008@gmail.com"} {}
+[2025-06-12 12:02:51] INFO: [Mongoose] users.createIndex {"email":1} {"unique":true,"background":true}
+[2025-06-12 12:02:51] INFO: [Mongoose] users.updateOne {"_id":"683a10b823bf771a098d772d","__v":10} {"$set":{"tokens":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2ExMGI4MjNiZjc3MWEwOThkNzcyZCIsImVtYWlsIjoiZGV2LnRlc3RlcjAwOEBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc0OTcyNjE3MSwiZXhwIjoxNzQ5ODEyNTcxfQ.AYG9xhs0qKxBR6tl4rGF_m4hA0i7Vm07VhXTZ1yV6bY"],"lastLogin":"2025-06-12T11:02:51.428Z","updatedAt":"2025-06-12T11:02:51.432Z"},"$inc":{"__v":1}}
+[2025-06-12 12:02:56] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:02:56] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:02:56] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:02:56] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:03:03] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504d"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:03:05] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":799,"items":[{"productId":"683a16630d86ad813784504d","quantity":1,"_id":"684ab3e904223031221fb599"}],"date":"2025-06-12T11:03:05.029Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1749726183919","paymentStatus":"pending","_id":"684ab3e904223031221fb598","__v":0} {}
+[2025-06-12 12:03:05] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504d"} {}
+[2025-06-12 12:03:05] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784504d"} {"$set":{"stock":47,"updatedAt":"2025-06-12T11:03:05.065Z"}}
+[2025-06-12 12:03:25] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:03:25] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:03:25] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:03:25] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:06:12] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:06:12] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:06:12] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:06:12] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:06:20] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845055"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:06:21] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":149,"items":[{"productId":"683a16630d86ad8137845055","quantity":1,"_id":"684ab4ad04223031221fb5d1"}],"date":"2025-06-12T11:06:21.290Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1749726380662","paymentStatus":"pending","_id":"684ab4ad04223031221fb5d0","__v":0} {}
+[2025-06-12 12:06:21] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad8137845055"} {}
+[2025-06-12 12:06:21] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad8137845055"} {"$set":{"stock":74,"updatedAt":"2025-06-12T11:06:21.341Z"}}
+[2025-06-12 12:24:18] INFO: Database connection established
+[2025-06-12 12:24:18] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:24:18] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:24:18] INFO: Server is listening on port 8080
+[2025-06-12 12:24:25] INFO: Database connection established
+[2025-06-12 12:24:25] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:24:25] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:24:26] INFO: Server is listening on port 8080
+[2025-06-12 12:24:28] INFO: Database connection established
+[2025-06-12 12:24:28] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:24:28] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:24:28] INFO: Server is listening on port 8080
+[2025-06-12 12:25:10] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:25:10] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:25:10] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:25:10] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:25:13] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:25:13] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"684ab919f5b48a04aec96053"}],"date":"2025-06-12T11:25:13.865Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1749727513215","paymentStatus":"pending","_id":"684ab919f5b48a04aec96052","__v":0} {}
+[2025-06-12 12:25:13] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-06-12 12:25:13] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":12,"updatedAt":"2025-06-12T11:25:13.969Z"}}
+[2025-06-12 12:25:24] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:25:24] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:25:24] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:25:24] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:25:48] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:25:49] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"684ab93df5b48a04aec96073"}],"date":"2025-06-12T11:25:49.661Z","email":"dev.tester008@gmail.com","status":"generated","paymentReference":"order_683a10b823bf771a098d772d_1749727548983","paymentStatus":"pending","_id":"684ab93df5b48a04aec96072","__v":0} {}
+[2025-06-12 12:25:49] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-06-12 12:25:49] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":11,"updatedAt":"2025-06-12T11:25:49.725Z"}}
+[2025-06-12 12:26:06] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:26:06] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:26:06] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:26:06] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:26:20] INFO: [Mongoose] orders.findOne {"paymentReference":"order_683a10b823bf771a098d772d_1749727548983"} {}
+[2025-06-12 12:33:26] INFO: Database connection established
+[2025-06-12 12:33:26] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:33:26] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:33:26] INFO: Server is listening on port 8080
+[2025-06-12 12:33:30] INFO: Database connection established
+[2025-06-12 12:33:30] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:33:30] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:33:30] INFO: Server is listening on port 8080
+[2025-06-12 12:33:54] INFO: Database connection established
+[2025-06-12 12:33:54] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:33:54] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:33:54] INFO: Server is listening on port 8080
+[2025-06-12 12:33:57] INFO: Database connection established
+[2025-06-12 12:33:57] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:33:57] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:33:57] INFO: Server is listening on port 8080
+[2025-06-12 12:34:35] INFO: Database connection established
+[2025-06-12 12:34:35] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:34:36] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:34:36] INFO: Server is listening on port 8080
+[2025-06-12 12:34:43] INFO: Database connection established
+[2025-06-12 12:34:43] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:34:43] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:34:43] INFO: Server is listening on port 8080
+[2025-06-12 12:34:49] INFO: Database connection established
+[2025-06-12 12:34:49] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:34:49] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:34:49] INFO: Server is listening on port 8080
+[2025-06-12 12:34:51] INFO: [Mongoose] orders.findOne {"paymentReference":"order_683a10b823bf771a098d772d_1749727548983"} {}
+[2025-06-12 12:34:51] INFO: [Mongoose] orders.updateOne {"_id":"684ab93df5b48a04aec96072"} {"$set":{"paymentStatus":"completed","status":"confirmed"}}
+[2025-06-12 12:35:08] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:35:09] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"684abb6d2a2d1be8c9204cf1"}],"date":"2025-06-12T11:35:09.374Z","email":"dev.tester008@gmail.com","status":"generated","paymentStatus":"pending","paymentReference":"order_683a10b823bf771a098d772d_1749728108556","_id":"684abb6d2a2d1be8c9204cf0","__v":0} {}
+[2025-06-12 12:35:09] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-06-12 12:35:09] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":10,"updatedAt":"2025-06-12T11:35:09.454Z"}}
+[2025-06-12 12:35:22] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:35:22] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:35:22] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:35:22] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:36:27] INFO: Database connection established
+[2025-06-12 12:36:27] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:36:27] INFO: [Mongoose] products.createIndex {"code":1} {"unique":true,"background":true}
+[2025-06-12 12:36:27] INFO: Server is listening on port 8080
+[2025-06-12 12:37:10] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:37:11] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"684abbe72bcf23047324c0b1"}],"date":"2025-06-12T11:37:11.939Z","email":"dev.tester008@gmail.com","status":"generated","paymentStatus":"pending","paymentReference":"order_683a10b823bf771a098d772d_1749728231047","_id":"684abbe72bcf23047324c0b0","__v":0} {}
+[2025-06-12 12:37:12] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-06-12 12:37:12] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":9,"updatedAt":"2025-06-12T11:37:12.049Z"}}
+[2025-06-12 12:37:48] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:37:48] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:37:49] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:37:49] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:38:01] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:38:02] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"684abc1a2bcf23047324c0d1"}],"date":"2025-06-12T11:38:02.041Z","email":"dev.tester008@gmail.com","status":"generated","paymentStatus":"pending","paymentReference":"order_683a10b823bf771a098d772d_1749728281354","_id":"684abc1a2bcf23047324c0d0","__v":0} {}
+[2025-06-12 12:38:02] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-06-12 12:38:02] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":8,"updatedAt":"2025-06-12T11:38:02.068Z"}}
+[2025-06-12 12:38:20] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:38:20] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:38:21] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:38:21] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:43:05] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504d"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:43:06] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":799,"items":[{"productId":"683a16630d86ad813784504d","quantity":1,"_id":"684abd4a2bcf23047324c0f1"}],"date":"2025-06-12T11:43:06.831Z","email":"dev.tester008@gmail.com","status":"generated","paymentStatus":"pending","paymentReference":"order_683a10b823bf771a098d772d_1749728585936","_id":"684abd4a2bcf23047324c0f0","__v":0} {}
+[2025-06-12 12:43:06] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784504d"} {}
+[2025-06-12 12:43:06] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784504d"} {"$set":{"stock":46,"updatedAt":"2025-06-12T11:43:06.879Z"}}
+[2025-06-12 12:46:42] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:46:42] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:46:42] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:46:42] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:52:43] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:52:43] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"684abf8b2bcf23047324c111"}],"date":"2025-06-12T11:52:43.889Z","email":"dev.tester008@gmail.com","status":"generated","paymentStatus":"pending","paymentReference":"order_683a10b823bf771a098d772d_1749729163122","_id":"684abf8b2bcf23047324c110","__v":0} {}
+[2025-06-12 12:52:43] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-06-12 12:52:43] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":7,"updatedAt":"2025-06-12T11:52:43.901Z"}}
+[2025-06-12 12:52:57] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:52:57] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:52:57] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:52:57] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:52:57] INFO: [Mongoose] orders.findOne {"paymentReference":"order_683a10b823bf771a098d772d_1749729163122"} {}
+[2025-06-12 12:52:57] INFO: [Mongoose] orders.updateOne {"_id":"684abf8b2bcf23047324c110"} {"$set":{"paymentStatus":"completed","status":"confirmed"}}
+[2025-06-12 12:52:58] INFO: [Mongoose] orders.findOne {"paymentReference":"order_683a10b823bf771a098d772d_1749729163122"} {}
+[2025-06-12 12:52:58] INFO: [Mongoose] orders.findOne {"_id":"684abf8b2bcf23047324c110"} {"projection":{"_id":1}}
+[2025-06-12 12:53:25] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:53:26] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"684abfb62bcf23047324c137"}],"date":"2025-06-12T11:53:26.141Z","email":"dev.tester008@gmail.com","status":"generated","paymentStatus":"pending","paymentReference":"order_683a10b823bf771a098d772d_1749729205356","_id":"684abfb62bcf23047324c136","__v":0} {}
+[2025-06-12 12:53:26] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-06-12 12:53:26] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":6,"updatedAt":"2025-06-12T11:53:26.154Z"}}
+[2025-06-12 12:53:48] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:53:49] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:53:49] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:53:49] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:53:49] INFO: [Mongoose] orders.findOne {"paymentReference":"order_683a10b823bf771a098d772d_1749729205356"} {}
+[2025-06-12 12:53:49] INFO: [Mongoose] orders.updateOne {"_id":"684abfb62bcf23047324c136"} {"$set":{"paymentStatus":"completed","status":"confirmed"}}
+[2025-06-12 12:53:49] INFO: [Mongoose] orders.findOne {"paymentReference":"order_683a10b823bf771a098d772d_1749729205356"} {}
+[2025-06-12 12:53:49] INFO: [Mongoose] orders.findOne {"_id":"684abfb62bcf23047324c136"} {"projection":{"_id":1}}
+[2025-06-12 12:57:55] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:57:55] INFO: [Mongoose] orders.insertOne {"buyer":"683a10b823bf771a098d772d","total":499,"items":[{"productId":"683a16630d86ad813784505b","quantity":1,"_id":"684ac0c32bcf23047324c15d"}],"date":"2025-06-12T11:57:55.949Z","email":"dev.tester008@gmail.com","status":"generated","paymentStatus":"pending","paymentReference":"order_683a10b823bf771a098d772d_1749729475169","_id":"684ac0c32bcf23047324c15c","__v":0} {}
+[2025-06-12 12:57:55] INFO: [Mongoose] products.findOne {"_id":"683a16630d86ad813784505b"} {}
+[2025-06-12 12:57:55] INFO: [Mongoose] products.updateOne {"_id":"683a16630d86ad813784505b"} {"$set":{"stock":5,"updatedAt":"2025-06-12T11:57:55.964Z"}}
+[2025-06-12 12:58:06] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:58:06] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:58:06] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:58:06] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:58:07] INFO: [Mongoose] orders.findOne {"paymentReference":"order_683a10b823bf771a098d772d_1749729475169"} {}
+[2025-06-12 12:58:07] INFO: [Mongoose] orders.updateOne {"_id":"684ac0c32bcf23047324c15c"} {"$set":{"paymentStatus":"completed","status":"confirmed"}}
+[2025-06-12 12:58:08] INFO: [Mongoose] orders.findOne {"paymentReference":"order_683a10b823bf771a098d772d_1749729475169"} {}
+[2025-06-12 12:58:08] INFO: [Mongoose] orders.findOne {"_id":"684ac0c32bcf23047324c15c"} {"projection":{"_id":1}}
+[2025-06-12 12:59:08] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:59:08] INFO: [Mongoose] products.countDocuments {} {}
+[2025-06-12 12:59:08] INFO: [Mongoose] products.find {} {"limit":10,"skip":0,"projection":{"createdBy":0,"__v":0}}
+[2025-06-12 12:59:08] INFO: [Mongoose] products.countDocuments {} {}

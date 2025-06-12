@@ -52,11 +52,14 @@ export const initializePayment = async (paymentData: any, token: string) => {
 };
 
 
-export const verifyPaymentEndpoint = async (reference: any) => {
+export const verifyPaymentEndpoint = async (
+  reference: string,
+  options: { headers: { Authorization: string } }
+) => {
   try {
     const url = `/payments/verify?reference=${reference}`;
-    const query = await axiosInstance.get(url);
-    return query.data;
+    const response = await axiosInstance.get(url, options);
+    return response.data;
   } catch (error) {
     handleError(error);
     return null;

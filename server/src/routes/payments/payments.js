@@ -8,7 +8,7 @@ const paymentControllerInstance = paymentControllers();
 module.exports = () => {
     router
         .post('/initialize', authMiddleware, paymentControllerInstance.initializePayment)
-        .get('/verify', paymentControllerInstance.verifyPayment)
+        .get('/verify', authMiddleware, paymentControllerInstance.verifyPayment)
         .post('/webhook', paymentControllerInstance.handleWebhook); 
     return router;
 };

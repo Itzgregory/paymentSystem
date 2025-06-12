@@ -76,12 +76,12 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ product, quantity = 1, onCl
         </div>
         {error && <div className="mb-4 p-2 bg-red-100 text-red-700 rounded">{error}</div>}
         {paymentUrl && (
-          <div className="mb-4 p-2 bg-green-100 text-green-700 rounded">
+          <div className="mb-4 p-2 bg-[--active-menu-hover] hover:[--button-color] text-[--button-color-active]-700 rounded">
             <p>Payment initialized successfully!</p>
             <p className="text-sm">Reference: {reference}</p>
             <GlobalButton
               onClick={proceedToCheckout}
-              className="mt-2 bg-green-500 hover:bg-green-600"
+              className="mt-2 bg-[--button-color]--500 hover:[--button-color]--600"
               disabled={loading}
               aria-label="Proceed to Paystack checkout"
             >
@@ -91,13 +91,13 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ product, quantity = 1, onCl
         )}
         {!paymentUrl && (
           <div className="flex justify-end space-x-4">
-            <GlobalButton
+            {/* <GlobalButton
               onClick={onClose}
               className="bg-gray-500 hover:bg-gray-600"
               disabled={loading}
             >
               Cancel
-            </GlobalButton>
+            </GlobalButton> */}
             <GlobalButton onClick={handlePayment} disabled={loading}>
               {loading ? (
                 <div className="flex items-center space-x-2">

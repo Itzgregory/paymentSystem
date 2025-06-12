@@ -11,7 +11,7 @@ class PaymentService {
 
     async initializePayment(user, orderData) {
     try {
-      console.log('User in initializePayment:', user); // Debug
+      console.log('User in initializePayment:', user);
       if (!user || !user.email || !user.id || !orderData.items) {
         return { status: 400, success: false, message: 'Missing user email, ID, or items', data: null };
       }
@@ -22,15 +22,15 @@ class PaymentService {
       }
 
       const { items, total } = validationResult.data;
-      const reference = `order_${user.id}_${Date.now()}`; // Use user.id
+      const reference = `order_${user.id}_${Date.now()}`; 
 
       const transaction = await paystack.transaction.initialize({
         email: user.email,
-        amount: total, // In kobo
+        amount: total, 
         currency: 'NGN',
         reference,
         callback_url: process.env.PAYSTACK_CALLBACK_URL || 'http://localhost:3000/talentdashboard',
-        metadata: { userId: user.id.toString() }, // Use user.id
+        metadata: { userId: user.id.toString() }, 
       });
 
       if (!transaction.status || !transaction.data.authorization_url) {
@@ -65,52 +65,70 @@ class PaymentService {
     }
   }
 
-   async verifyPayment(reference) {
-  try {
-    const transaction = await paystack.transaction.verify({ reference });
-    if (!transaction.status || transaction.data.status !== "success") {
+  async verifyPayment(reference) {
+    try {
+      const transaction = await paystack.transaction.verify({ reference });
+
+      const txStatus = transaction?.data?.status;
+      const paystackMessage = transaction?.message || "";
+
+      if (!transaction.status) {
+        return {
+          status: 400,
+          success: false,
+          message: `Payment verification failed: ${paystackMessage || "Invalid response from Paystack"}`,
+          data: null,
+        };
+      }
+
+      if (txStatus !== "success") {
+        return {
+          status: 400,
+          success: false,
+          message: `Payment was not successful. Status: ${txStatus}`,
+          data: {
+            reference,
+            status: txStatus,
+          },
+        };
+      }
+
+      const orderResult = await this.paymentDAO.updateOrderStatus(reference, {
+        paymentStatus: "completed",
+        status: "confirmed",
+      });
+
+
+      if (!orderResult.success) {
+        return {
+          status: 500,
+          success: false,
+          message: orderResult.message,
+          data: null,
+        };
+      }
+
       return {
-        status: 400,
-        success: false,
-        message: `Payment verification failed: ${transaction.message || "Invalid status"}`,
-        data: null,
+        status: 200,
+        success: true,
+        message: "Payment verified successfully",
+        data: {
+          reference,
+          amount: transaction.data.amount / 100,
+          status: txStatus,
+        },
       };
-    }
-
-    const orderResult = await this.paymentDAO.updateOrderStatus(reference, {
-      paymentStatus: "completed",
-      status: "confirmed",
-    });
-
-    if (!orderResult.success) {
+    } catch (err) {
+      logerror.error("Error verifying payment:", err);
       return {
         status: 500,
         success: false,
-        message: orderResult.message,
+        message: `Verification failed: ${err.message}`,
         data: null,
       };
     }
-
-    return {
-      status: 200,
-      success: true,
-      message: "Payment verified successfully",
-      data: {
-        reference,
-        amount: transaction.data.amount / 100, 
-        status: transaction.data.status,
-      },
-    };
-  } catch (err) {
-    logerror.error("Error verifying payment:", err);
-    return {
-      status: 500,
-      success: false,
-      message: `Verification failed: ${err.message}`,
-      data: null,
-    };
   }
-}
+
 }
 
 module.exports = PaymentService;

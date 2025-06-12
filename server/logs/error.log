@@ -35,3 +35,5 @@
 [2025-05-30 22:38:39] ERROR: Error validating order items: this.productDAO.findById is not a function
 [2025-05-30 22:39:35] ERROR: Error validating order items: this.productDAO.findById is not a function
 [2025-05-30 22:43:42] ERROR: Error initializing payment: Cannot read properties of undefined (reading 'toString')
+[2025-06-01 23:59:19] ERROR: Invalid password for user:
+[2025-06-12 12:26:20] ERROR: Error updating order status: Order validation failed: status: Cast to string failed for value "{ paymentStatus: 'completed', status: 'confirmed' }" (type Object) at path "status"

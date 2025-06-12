@@ -9,9 +9,9 @@ const orderSchema = new mongoose.Schema({
   }],
   date: { type: String, required: true },
   email: { type: String, required: true },
-  status: { type: String, default: 'generated' },
+  status: { type: String, enum: ['generated', 'confirmed', 'cancelled'], default: 'generated' },
+  paymentStatus: { type: String, enum: ['pending', 'completed', 'failed'], default: 'pending' },
   paymentReference: { type: String, required: true },
-  paymentStatus: { type: String, default: 'pending' },
 });
 
 module.exports = mongoose.model('Order', orderSchema);

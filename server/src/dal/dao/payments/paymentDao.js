@@ -26,21 +26,23 @@ class PaymentDAO {
     }
   }
 
-    async updateOrderStatus(paymentReference, status, paymentStatus) {
-        try {
-            const order = await this.Order.findOne({ paymentReference });
-            if (!order) {
-                return { success: false, message: 'Order not found', data: null };
-            }
-            order.status = status;
-            order.paymentStatus = paymentStatus;
-            await order.save();
-            return { success: true, data: order };
-        } catch (err) {
-            logerror.error('Error updating order status:', err);
-            return { success: false, message: err.message, data: null };
+    async updateOrderStatus(paymentReference, updateData) {
+      try {
+        const order = await this.Order.findOne({ paymentReference });
+        if (!order) {
+          return { success: false, message: 'Order not found', data: null };
         }
+
+        Object.assign(order, updateData); 
+        await order.save();
+
+        return { success: true, data: order };
+      } catch (err) {
+        logerror.error('Error updating order status:', err);
+        return { success: false, message: err.message, data: null };
+      }
     }
+
 
     async findOrderByReference(paymentReference) {
         try {

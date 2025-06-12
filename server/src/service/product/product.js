@@ -59,7 +59,7 @@ class ProductService {
         if (product.stock < item.quantity) {
           return { status: 400, success: false, message: `Insufficient stock for ${product.name}`, data: null };
         }
-        calculatedTotal += product.price * item.quantity; // Calculate total in NGN
+        calculatedTotal += product.price * item.quantity;
         validatedItems.push({ productId: item.productId, quantity: item.quantity });
       }
 
@@ -77,7 +77,7 @@ class ProductService {
         status: 200,
         success: true,
         message: 'Items and total validated',
-        data: { items: validatedItems, total: calculatedTotal * 100 }, // Return total in kobo
+        data: { items: validatedItems, total: calculatedTotal * 100 }, 
       };
     } catch (err) {
       logerror.error('Error validating order items:', err);

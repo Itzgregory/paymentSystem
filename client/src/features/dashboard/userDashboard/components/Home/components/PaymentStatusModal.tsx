@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { getAuthToken } from "@/utils/auth/authutils";
 import GlobalButton from "@/constants/button";
+import { verifyPaymentEndpoint } from "@/app/api/ProductAndPayments/productAndPayment";
 
 interface PaymentStatusModalProps {
   onClose: () => void;
@@ -29,26 +30,23 @@ const PaymentStatusModal: React.FC<PaymentStatusModalProps> = ({ onClose }) => {
           return;
         }
 
-        const response = await fetch(`/api/payments/verify?reference=${reference}`, {
+        const result = await verifyPaymentEndpoint(reference, {
           headers: { Authorization: `Bearer ${token}` },
         });
-
-        const result = await response.json();
         console.log("Verification result:", result);
 
-        if (result.success) {
-          setStatus("Payment successful! Your order has been confirmed.");
-        } else {
-          setError(result.message || "Payment verification failed.");
-        }
-      } catch (err) {
+       if (result?.success) {
+        setStatus("Payment successful! Your order has been confirmed.");
+      } else {
+        setError(result?.message || "Payment verification failed.");
+      }
+      } catch (err: any) {
         console.error("Verification error:", err);
-        setError("Error verifying payment. Please try again.");
-      } finally {
+        setError(err?.response?.data?.message || err?.message || "Error verifying payment. Please try again.");
+      }finally {
         setLoading(false);
       }
     };
-
     verifyPayment();
   }, [reference]);
 
@@ -80,19 +78,19 @@ const PaymentStatusModal: React.FC<PaymentStatusModalProps> = ({ onClose }) => {
         {error && <p className="text-red-700 bg-red-100 p-2 rounded mb-4">{error}</p>}
 
         <div className="flex justify-end space-x-4">
-          <GlobalButton onClick={onClose} className="bg-gray-500 hover:bg-gray-600" aria-label="Close modal">
+          <GlobalButton onClick={onClose} className="bg-[--button-color]--300 hover:[--button-color]--400" aria-label="Close modal">
             Close
           </GlobalButton>
 
           {status && (
-            <Link href="/orders">
-              <GlobalButton className="bg-blue-500 hover:bg-blue-600">View Orders</GlobalButton>
+            <Link href="/talentdashboard/orders">
+              <GlobalButton className="bg-[--button-color] hover:[--button-color]">View Orders</GlobalButton>
             </Link>
           )}
 
           {error && (
             <Link href="/talentdashboard">
-              <GlobalButton className="bg-blue-500 hover:bg-blue-600">Return to Dashboard</GlobalButton>
+              <GlobalButton className="bg-[--button-color]--500 hover:[--button-color]--600">Return to Dashboard</GlobalButton>
             </Link>
           )}
         </div>

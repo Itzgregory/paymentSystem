@@ -25,8 +25,6 @@ export const MobileMenu = ({ isOpen, user, handleLogout, onClose }: MobileMenuPr
         </div>
         <div className={styles.sideMenuItems}>
           <Link href="/" className={styles.sideMenuItem} onClick={onClose}>Home</Link>
-          <Link href="/clients" className={styles.sideMenuItem} onClick={onClose}>Clients</Link>
-          <Link href="/talents" className={styles.sideMenuItem} onClick={onClose}>Talents</Link>
           {user ? (
             <>
               <Link href="/talentdashboard" className={styles.sideMenuItem} onClick={onClose}>

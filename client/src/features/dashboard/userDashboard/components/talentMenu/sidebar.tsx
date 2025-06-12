@@ -4,11 +4,7 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { 
   FaHome, 
-  FaUser, 
-  FaBriefcase, 
-  FaFileAlt, 
-  FaEnvelope, 
-  FaCompass,
+  FaShoppingCart,
   FaTimes,
   FaBars
 } from "react-icons/fa";
@@ -64,6 +60,7 @@ const Sidebar: React.FC<SidebarProps> = ({ collapsed }) => {
 
   const menuItems = [
     { name: "Home", path: "/talentdashboard", icon: <FaHome size={20} /> },
+    { name: "Orders", path: "/talentdashboard/orders", icon: <FaShoppingCart size={20} /> },
   ];
 
   return (
